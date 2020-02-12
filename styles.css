@@ -1,0 +1,75 @@
+.wrap{
+  width: 1000px;
+  height: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  user-select: none;
+}
+
+#timer{
+  width: 700px;
+  height: 300px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(107, 97, 107, 0.333);
+  line-height: 300px;
+  font-size: 90px;
+
+}
+
+#start{
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+  background-color: rgba(107, 97, 107, 0.333);
+  cursor: pointer;
+  line-height: 100px;
+  margin: 20px 20px;
+}
+#stop{
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+  background-color: rgba(107, 97, 107, 0.333);
+  cursor: pointer;
+  line-height: 100px;
+  margin: 20px 20px;
+  
+}
+#reset{
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+  background-color: rgba(107, 97, 107, 0.333);
+  cursor: pointer;
+  line-height: 100px;
+  margin: 20px 20px;
+}
+
+.disabled{
+  opacity: 0.5;
+}
+
+.stst{
+  font-size: 0;
+}
+
+.stst::before{
+  font-size: 30px;
+  content: 'Stop';
+}
+
+.btn{
+  font-size: 30px;
+}
+
+
+.kido{
+  width: 500px;
+  height: 500px;
+  background-color: pink;
+  text-align: center;
+  line-height: 500px;
+  color: green;
+  font-size: 60px;
+}
